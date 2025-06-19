@@ -1,0 +1,28 @@
+.postsContainer {
+  display: flex;
+  gap: 24px;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.featuredPost {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.title {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+}
+
+.text {
+  margin-top: 24px;
+}
