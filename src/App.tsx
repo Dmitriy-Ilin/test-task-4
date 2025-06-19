@@ -12,7 +12,7 @@ import Layout from "./components/Laoyout";
 const App: React.FC = () => {
   return (
     <Provider store={store}>
-      <Router>
+      <Router basename="/test-task-4">
         <Layout>
           <Routes>
             <Route path="/" element={<HomePage />} />
